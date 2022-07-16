@@ -819,6 +819,75 @@ img {
     border-radius: 4px;
 }
 
+/* Form */
+.modal-inner {
+    padding: 40px;
+}
+
+.modal-inner .title {
+    display: block;
+    margin-bottom: 12px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+
+/* Form-field */
+
+.form-feild-label {
+    display: block;
+    margin-bottom: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
+
+}
+
+.form-field-input {
+    width: 100%;
+    padding: 11px 12px 11px 42px;
+    margin-bottom: 10px;
+    
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.form-field-inner {
+    position: relative;
+}
+
+.form-field-icon{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-80%);
+}
+
+.form-field-input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+
+    color: rgba(117, 117, 117, 0.5);
+}
+textarea {
+    resize: none;
+  }
 .modal-close-icon {
 
     fill: #000000;
