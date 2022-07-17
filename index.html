@@ -369,48 +369,52 @@
                 </svg>
             </button>
             <div class="modal-inner">
-                <h2 class="title">Оставьте свои данные, мы вам перезвоним</h2>
+                
                 <form class="form" name="main-form" autocomplete="on">
-                    <div class="form-field">
-                        <label class="form-feild-label" for="user-name">Имя</label>
-                        <div class="form-field-inner">
-                            <input class="form-field-input" id="user-name" type="text" name="name" >
-                            <svg class="form-field-icon" width="18px" height="18px" aria-hidden="true" >
-                                <use href="./images/icons.svg#person-black"></use>
-                            </svg>
+                    <fieldset >
+                        <legend class="modal-inner-title">Оставьте свои данные, мы вам перезвоним</legend>
+                        <div class="form-field">
+                            <label class="form-feild-label" for="user-name">Имя</label>
+                            <div class="form-field-inner">
+                                <input class="form-field-input" id="user-name" type="text" name="name" >
+                                <svg class="form-field-icon" width="18px" height="18px" aria-hidden="true" >
+                                    <use href="./images/icons.svg#person-black"></use>
+                                </svg>
+                            </div>
+                            
                         </div>
-                        
-                    </div>
-                    <div class="form-field">
-                        <label class="form-feild-label" for="phone-number">Телефон</label>
-                        <div class="form-field-inner">
-                            <input class="form-field-input" id="phone-number" type="tel" name="phone-number" >
-                            <svg class="form-field-icon" width="18px" height="18px" aria-hidden="true" >
-                                <use href="./images/icons.svg#phone-black"></use>
-                            </svg>
+                        <div class="form-field">
+                            <label class="form-feild-label" for="phone-number">Телефон</label>
+                            <div class="form-field-inner">
+                                <input class="form-field-input" id="phone-number" type="tel" name="phone-number" >
+                                <svg class="form-field-icon" width="18px" height="18px" aria-hidden="true" >
+                                    <use href="./images/icons.svg#phone-black"></use>
+                                </svg>
+                            </div>
+                            
                         </div>
-                        
-                    </div>
-                    <div class="form-field">
-                        <label class="form-feild-label" for="e-mail">Почта</label>
-                        <div class="form-field-inner">
-                            <input class="form-field-input" id="e-mail" type="email" name="e-mail" >
-                            <svg class="form-field-icon" width="18px" height="18px" aria-hidden="true" >
-                                <use href="./images/icons.svg#email-black"></use>
-                            </svg>
+                        <div class="form-field">
+                            <label class="form-feild-label" for="e-mail">Почта</label>
+                            <div class="form-field-inner">
+                                <input class="form-field-input" id="e-mail" type="email" name="e-mail" >
+                                <svg class="form-field-icon" width="18px" height="18px" aria-hidden="true" >
+                                    <use href="./images/icons.svg#email-black"></use>
+                                </svg>
+                            </div>
+                            
                         </div>
-                        
-                    </div>
-                    <div class="form-field">
-                        <label class="form-feild-label" for="comment">Комментарий</label>
-                        <textarea class="form-field-input form-field-texarea" id="comment" name="feedback" rows="5" placeholder="Введите текст"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <input type="checkbox" id="terms-conditions">
-                        <label class="form-feild-terms" for="terms-conditions">Соглашаюсь с рассылкой и принимаю <a class="terms-link" href="/">Условия договора</a></label>
-                        
-                    </div>
-                    <button type="submit" class="form-field-button">Отправить</button>
+                        <div class="form-field">
+                            <label class="form-feild-label" for="comment">Комментарий</label>
+                            <textarea class="form-field-input form-field-texarea" id="comment" name="feedback" rows="5" placeholder="Введите текст"></textarea>
+                        </div>
+                        <div class="form-field">
+                            <input type="checkbox" id="terms-conditions">
+                            <label class="form-feild-terms" for="terms-conditions">Соглашаюсь с рассылкой и принимаю <a class="terms-link" href="/">Условия договора</a></label>
+                            
+                        </div>
+                        <button type="submit" class="form-field-button">Отправить</button>
+                    </fieldset>
+                    
                 </form>
             </div>
         </div>

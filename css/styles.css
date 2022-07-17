@@ -35,6 +35,12 @@ img {
     display: block;
 }
 
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
 .hide-title {
     position: absolute;
     width: 1px;
@@ -821,10 +827,10 @@ img {
 
 /* Form */
 .modal-inner {
-    padding: 40px;
+    padding: 38px 53px 42px 27px;
 }
 
-.modal-inner .title {
+.modal-inner-title {
     display: block;
     margin-bottom: 12px;
 
